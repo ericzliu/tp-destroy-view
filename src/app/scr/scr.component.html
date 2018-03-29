@@ -1,0 +1,7 @@
+<p>
+  Child counter value is {{ childCounter }}
+</p>
+
+<app-child (counterChange)="handleChildCounterChange($event)"></app-child>
+
+<button (click)="gotoScr1()">Jump to Scr1</button>
